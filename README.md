@@ -1,7 +1,11 @@
 # auth-app skeleton
 
 Add a skeleton of an authenticated user app using Meteor >= 1.3 / ReactJS. <br />
-Redirect no logged user to /login. User can SignUp. Add bootstrap to stylize the app.
+Add bootstrap to stylize the app.<br /><br />
+There is two spaces<br />
+ - one no logged (/) where the user can view the page even no logged.<br />
+ - one logged (/admin) where the user can acced to the admin panel when he is logged. If /admin is entered when the user is logout, he is redirected to /login.<br /><br />
+
 
 
 *Using packages:<br />

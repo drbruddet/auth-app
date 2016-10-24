@@ -1,6 +1,6 @@
 # auth-app skeleton
 
-Add a skeleton of an authenticated user app using Meteor >= 1.3 / ReactJS. <br />
+Add a skeleton of an authenticated user app using Meteor >= 1.3 / ReactJS / React router. <br />
 Add bootstrap to stylize the app.<br /><br />
 There is two spaces<br />
  - one no logged (/) where the user can view the page even no logged.<br />

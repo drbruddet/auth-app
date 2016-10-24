@@ -5,6 +5,9 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import AppContainer from '../../ui/containers/AppContainer.jsx'
 import MainContainer from '../../ui/containers/MainContainer.jsx'
 
+import AdminAppContainer from '../../ui/containers/AdminAppContainer.jsx'
+import AdminMainContainer from '../../ui/containers/AdminMainContainer.jsx'
+
 // pages
 import SignupPage from '../../ui/pages/SignupPage.jsx'
 import LoginPage from '../../ui/pages/LoginPage.jsx'
@@ -15,6 +18,9 @@ export const renderRoutes = () => (
     <Route path="signup" component={SignupPage}/>
     <Route path="/" component={AppContainer}>
       <IndexRoute component={MainContainer}/>
+    </Route>
+    <Route path="/admin" component={AdminAppContainer}>
+      <IndexRoute component={AdminMainContainer}/>
     </Route>
   </Router>
 );
